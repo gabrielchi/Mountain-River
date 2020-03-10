@@ -74,5 +74,5 @@ function draw() {
   
 //   offset2 += 0.005;
 
-  aaaaaa
+  
 }
