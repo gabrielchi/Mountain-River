@@ -11,18 +11,30 @@ function setup() {
 
 function draw() {
   
-  background("#def0ff");
+  background("#d4e5ff");
   
   
   noStroke();
-  fill("#84c2f5");
+
+  //ocean
+  fill("#568bd1");
   rect(0, 390, 600, 300);
+
+  //front ocean
+  fill("#5c95e0")
+  rect(0, 500, 600, 100);
+
+
+  //sun
   fill("#ffd952");
   ellipse(60, 60, 80, 80);
+  fill("#ffb700");
+  ellipse(60, 60, 60, 60);
 
 
-  //backmountain
-  fill("#969592");
+
+  //mountain
+  fill("#b9bec4");
   noStroke();
   
   noiseStep = 1 + offset;
@@ -67,6 +79,7 @@ function draw() {
   rect(420, 450, 20, 50);
 
 
+ 
     
   //clouds
   translate(cloudmove, 100);
