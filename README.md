@@ -11,6 +11,5 @@ Coding Credit:
 Help with Cloud Animation by Jackie Zen:
 https://editor.p5js.org/jackiezen/sketches/rJEziNOR
 
-Help with Mountain Animation:
-Tristan
+
 
