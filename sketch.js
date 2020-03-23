@@ -13,7 +13,6 @@ function draw() {
   
   background("#d4e5ff");
   
-  
   noStroke();
 
   //ocean
@@ -30,7 +29,6 @@ function draw() {
   ellipse(60, 60, 80, 80);
   fill("#ffb700");
   ellipse(60, 60, 60, 60);
-
 
 
   //mountain
@@ -79,8 +77,6 @@ function draw() {
   rect(420, 450, 20, 50);
 
 
- 
-    
   //clouds
   translate(cloudmove, 100);
   cloudmove ++;
@@ -110,5 +106,10 @@ function draw() {
     cloudmove = -500;
   }
   
+  
+
+
+
+
   
 }
