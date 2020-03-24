@@ -5,8 +5,6 @@ let cloudmove = 0
 function setup() {
   createCanvas(600, 600);
   
- 
- 
 }
 
 function draw() {
@@ -54,12 +52,12 @@ function draw() {
   
   //boat
   fill("#bf845c");
-  rect(300, 310, 5, 50);
+  rect(0 + mouseX, 310, 5, 50);
   fill("#fffdf5");
-  triangle(340, 330, 270, 330, 302, 310);
+  triangle(-30 + mouseX, 330, 40 + mouseX, 330, 0 + mouseX, 310);
   fill("#876b55");
-  rect(270, 350, 70, 10);
-  rect(275, 360, 60, 10);
+  rect(-30 + mouseX, 350, 70, 10);
+  rect(-25 + mouseX, 360, 60, 10);
 
   //island
   fill("#527a41");
